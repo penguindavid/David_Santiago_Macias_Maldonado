@@ -29,3 +29,6 @@ Historia de usuario: Como empresa, quiero encontrar los datos de contacto del ge
 ## Épica: Presentación de la página
 
 Historia de usuario: Como empresa, quiero encontrar la información del geólogo de forma clara y ordenada para conocer rápidamente sus servicios.
+
+# Modelo relacional
+![Modelo relacional](Img/importante%20(1).jpg)
