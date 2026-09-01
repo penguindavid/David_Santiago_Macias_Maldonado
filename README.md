@@ -1,35 +1,31 @@
-# Planteamiento del probema
-A lo largo de los años, las empresas han buscado profesionales con los conocimientos y habilidades adecuadas para cubrir sus necesidades. Por esta razón, desde mi perfil profesional como un joven geólogo de 25 años, especializado en paleontología, decidí crear esta página web para dar a conocer mis conocimientos, experiencia y servicios.
-
-El objetivo es que diferentes empresas puedan conocer mi perfil profesional y contactarme de manera sencilla para ofrecer mis servicios en proyectos relacionados con la geología y la paleontología.
-(esto tomado desde la perspectiva de mi yo de 25 años en 2035).
-
 # Planteamiento del problema
+Las empresas que necesitan servicios especializados de geología pueden tener dificultades para encontrar profesionales adecuados para sus proyectos. Esto se debe a que no siempre cuentan con un medio sencillo donde puedan conocer los perfiles, especialidades y capacidades de los geólogos disponibles. Esta dificultad puede hacer más lento el proceso de encontrar un profesional que se adapte a las necesidades de cada empresa.
 
-## Causas:
-Las empresas necesitan encontrar profesionales especializados, pero muchas veces no cuentan con un medio sencillo para conocer sus perfiles, experiencia y servicios, especialmente en áreas específicas como la geología y la paleontología.
+# Causas: 
+Las empresas pueden tener dificultades para encontrar geólogos especializados, debido a la falta de espacios donde puedan consultar fácilmente sus perfiles profesionales, conocimientos y áreas de especialización.
 
-## problema:
-Existe una dificultad para conectar a profesionales especializados en paleontología con empresas que puedan necesitar sus conocimientos y servicios.
+# Consecuencias: 
+esta dificultad puede retrasar la contratación de profesionales adecuados para los proyectos y hacer que las empresas tengan menos opciones al momento de buscar un geólogo que cumpla con sus necesidades.
 
-## Consecuencias:
-Esto puede provocar que las empresas tengan dificultades para encontrar al profesional adecuado y que los geólogos especializados tengan menos oportunidades de dar a conocer su trabajo y conseguir nuevos proyectos.
+# Aporte: 
+La página web ofrecerá a las empresas un espacio donde podrán conocer el perfil profesional, las especialidades y los servicios de un geólogo, facilitando la búsqueda de un profesional adecuado para sus proyectos.
 
-## Aporte:
-La página web permitirá presentar mi perfil profesional como geólogo especializado en paleontología, mostrando mis conocimientos, experiencia y servicios. Además, facilitará que las empresas puedan conocer mi trabajo y contactarme de manera rápida y sencilla.
+## Épica: Perfil profesional
 
-# epicas e historias de usuarios.
+Historia de usuario: Como empresa, quiero conocer el perfil profesional del geólogo para saber si cuenta con las capacidades necesarias.
 
-1.perfil Profesional 
--como visitante, me gustaria conocer el perfil,formacion y especializacion del geologo, para saber que conocimientos posee
+## Épica: Servicios
 
-2.servicio
--como empresa, me gustaria conocer los servicios de geologia y paleontologia, para ver si se ofrece el perfil profesional necesario para la empresa
+Historia de usuario: Como empresa, quiero conocer los servicios que ofrece el geólogo para saber si se adaptan a mi proyecto.
 
-3.contacto
--como empresa, quiero tener una forma de contactar al geologo, para adquirir informacion o sus servicios.
+## Épica: Experiencia profesional
 
-4.Navegacion
--como visitante, me gustaria disfrutar de navegar por distintas secciones de navegacion, en las cuales este contenida la informacion importante, como la espelizacion.
+Historia de usuario: Como empresa, quiero conocer los proyectos o trabajos realizados por el geólogo para evaluar su experiencia.
 
-![imagen del proceso](Img/screen.jpg)
+## Épica: Información de contacto
+
+Historia de usuario: Como empresa, quiero encontrar los datos de contacto del geólogo para poder solicitar sus servicios.
+
+## Épica: Presentación de la página
+
+Historia de usuario: Como empresa, quiero encontrar la información del geólogo de forma clara y ordenada para conocer rápidamente sus servicios.
