@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto GEOTEX</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Proyecto GEOTEX</h1>
+    <button id="perfilBtn">☰ Perfil</button>
+  </header>
+
+  <!-- Apartado lateral oculto -->
+  <aside id="perfilAside">
+    <div class="perfil-content">
+      <img src="tu-foto.jpg" alt="Foto de David" class="perfil-img">
+      <h2>David</h2>
+      <p><strong>Trabajo:</strong> Geologo especializado en paleontologia</p>
+      <p><strong>Universidad:</strong> Granada, España</p>
+      <button id="cerrarAside">Cerrar ✖</button>
+    </div>
+  </aside>
+
+  <!-- Menú principal con imágenes -->
+  <main>
+    <section class="menu-eras">
+      <h2>Eras Geológicas</h2>
+      <div class="grid">
+        <a href="precambrico.html" class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Precambrian.jpg" alt="Precámbrico">
+          <p>Precámbrico</p>
+        </a>
+        <a href="paleozoico.html" class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Paleozoic.jpg" alt="Paleozoico">
+          <p>Paleozoico</p>
+        </a>
+        <a href="mesozoico.html" class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Mesozoic.jpg" alt="Mesozoico">
+          <p>Mesozoico</p>
+        </a>
+        <a href="jurasic.html" class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Jurassic.jpg" alt="Jurásico">
+          <p>Jurásico</p>
+        </a>
+        <a href="cenozoico.html" class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Cenozoic.jpg" alt="Cenozoico">
+          <p>Cenozoico</p>
+        </a>
+        <a href="neogeno.html" class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Neogene.jpg" alt="Neógeno">
+          <p>Neógeno</p>
+        </a>
+        <a href="cuaternario.html" class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Quaternary.jpg" alt="Cuaternario">
+          <p>Cuaternario</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Perfil profesional -->
+    <section class="perfil-texto">
+      <p><em>
+        Soy un apasionado por la tecnología, el desarrollo de sistemas y la innovación digital. Mi objetivo es convertirme en ingeniero en sistemas, con un enfoque en la creación de videojuegos inspirados en la biología y el diseño de soluciones web modernas.  
+        Actualmente estudio en la Universidad de Granada, España, donde he adquirido experiencia en programación, bases de datos y desarrollo frontend.  
+        Mi visión profesional es combinar creatividad y conocimiento técnico para aportar proyectos que unan ciencia, educación y entretenimiento en el mundo digital.  
+        Además, me interesa explorar cómo la biología puede inspirar nuevas mecánicas de juego y cómo las herramientas digitales pueden servir para la enseñanza y la divulgación científica.  
+        Aspiro a fundar una empresa que integre estas ideas, generando impacto tanto en el ámbito académico como en el entretenimiento.
+      </em></p>
+    </section>
+  </main>
+
+  <!-- Script para abrir/cerrar el apartado lateral -->
+  <script>
+    const perfilBtn = document.getElementById('perfilBtn');
+    const perfilAside = document.getElementById('perfilAside');
+    const cerrarAside = document.getElementById('cerrarAside');
+
+    perfilBtn.addEventListener('click', () => {
+      perfilAside.style.display = 'block';
+    });
+
+    cerrarAside.addEventListener('click', () => {
+      perfilAside.style.display = 'none';
+    });
+  </script>
+</body>
+</html>

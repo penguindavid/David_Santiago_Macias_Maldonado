@@ -32,3 +32,15 @@ Historia de usuario: Como empresa, quiero encontrar la información del geólogo
 
 # Modelo relacional
 ![Modelo relacional](Img/importante%20(1).jpg)
+
+## Tabla 
+![Base de datos](Img/random.jpg.jpg)
+
+## Tabla (2)
+![Base de datos](Img/pe%20(1).jpg)
+
+(se retira el atributo ficha de la tabla solicitud)
+
+## Conexion
+se creo la conexion uno a muchos entre la tabla empresa y solicitud 
+![Conexion](Img/screen%20(1).jpg)
