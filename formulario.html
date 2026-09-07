@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario de contratación - GEOTEX</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Bangers', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 font-['Poppins']">
+
+    <header class="bg-white border-b border-gray-300">
+
+        <div class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+
+            <div>
+                <h1 class="text-4xl font-display text-gray-900">
+                    GEOTEX
+                </h1>
+
+                <p class="text-gray-500 text-sm mt-1">
+                    Contacto profesional
+                </p>
+            </div>
+
+            <a
+                href="index.html"
+                class="px-5 py-3 rounded-xl bg-gray-900 text-white hover:bg-gray-700 transition">
+                ← Volver
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main class="max-w-4xl mx-auto px-6 py-16">
+
+        <div class="text-center mb-12">
+
+            <span class="text-gray-500 uppercase tracking-widest font-semibold">
+                Oportunidad profesional
+            </span>
+
+            <h2 class="text-5xl md:text-6xl font-display mt-3 text-gray-900">
+                ¿QUIERES CONTRATARME?
+            </h2>
+
+            <p class="text-gray-600 mt-5 max-w-2xl mx-auto leading-relaxed">
+                Si tu empresa está interesada en mis conocimientos y servicios,
+                completa el siguiente formulario para contarme sobre la
+                oportunidad profesional.
+            </p>
+
+        </div>
+
+
+        <form
+            action="#"
+            method="post"
+            class="bg-white border border-gray-300 rounded-3xl p-8 md:p-12 shadow-sm">
+
+
+            <div class="mb-10">
+
+                <h3 class="text-2xl font-bold text-gray-900">
+                    Información de la empresa
+                </h3>
+
+                <p class="text-gray-500 text-sm mt-2">
+                    Datos de contacto de la empresa interesada.
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Nombre de la empresa
+                    </label>
+
+                    <input
+                        type="text"
+                        name="empresa"
+                        required
+                        placeholder="Ej. GeoTech S.A.S."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Nombre del responsable
+                    </label>
+
+                    <input
+                        type="text"
+                        name="responsable"
+                        required
+                        placeholder="Nombre del encargado"
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Correo de la empresa
+                    </label>
+
+                    <input
+                        type="email"
+                        name="correo"
+                        required
+                        placeholder="empresa@ejemplo.com"
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Teléfono
+                    </label>
+
+                    <input
+                        type="tel"
+                        name="telefono"
+                        placeholder="Número de contacto"
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                </div>
+
+            </div>
+
+
+            <div class="border-t border-gray-300 my-10"></div>
+
+
+            <div class="mb-10">
+
+                <h3 class="text-2xl font-bold text-gray-900">
+                    Información de la oportunidad
+                </h3>
+
+                <p class="text-gray-500 text-sm mt-2">
+                    Cuéntame qué tipo de trabajo necesita realizar la empresa.
+                </p>
+
+            </div>
+
+
+            <div class="space-y-6">
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Cargo o puesto ofrecido
+                    </label>
+
+                    <input
+                        type="text"
+                        name="cargo"
+                        required
+                        placeholder="Ej. Geólogo, investigador, desarrollador..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Área de trabajo
+                    </label>
+
+                    <select
+                        name="area"
+                        required
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                        <option value="">
+                            Selecciona un área
+                        </option>
+
+                        <option>
+                            Geología
+                        </option>
+
+                        <option>
+                            Paleontología
+                        </option>
+
+                        <option>
+                            Investigación científica
+                        </option>
+
+                        <option>
+                            Desarrollo de sistemas
+                        </option>
+
+                        <option>
+                            Desarrollo web
+                        </option>
+
+                        <option>
+                            Programación
+                        </option>
+
+                        <option>
+                            Proyecto relacionado con ciencia y tecnología
+                        </option>
+
+                        <option>
+                            Otro
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        ¿Qué tipo de profesional está buscando?
+                    </label>
+
+                    <textarea
+                        name="perfil"
+                        rows="4"
+                        placeholder="Describe las características y conocimientos que busca la empresa..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 resize-none"></textarea>
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Descripción del trabajo o proyecto
+                    </label>
+
+                    <textarea
+                        name="descripcion"
+                        rows="5"
+                        required
+                        placeholder="Explica en qué consiste el trabajo o proyecto..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 resize-none"></textarea>
+
+                </div>
+
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+                            Modalidad de trabajo
+                        </label>
+
+                        <select
+                            name="modalidad"
+                            class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                            <option value="">
+                                Selecciona una opción
+                            </option>
+
+                            <option>
+                                Presencial
+                            </option>
+
+                            <option>
+                                Remoto
+                            </option>
+
+                            <option>
+                                Híbrido
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+                            Ubicación
+                        </label>
+
+                        <input
+                            type="text"
+                            name="ubicacion"
+                            placeholder="Ciudad / País"
+                            class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+                    </div>
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        ¿Qué conocimientos o habilidades necesita?
+                    </label>
+
+                    <textarea
+                        name="habilidades"
+                        rows="4"
+                        placeholder="Ej. conocimientos de geología, paleontología, programación, bases de datos, desarrollo web..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 resize-none"></textarea>
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        ¿Por qué considera que mi perfil puede ser adecuado?
+                    </label>
+
+                    <textarea
+                        name="motivo"
+                        rows="4"
+                        placeholder="Cuéntame qué aspectos de mi perfil le interesan..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 resize-none"></textarea>
+
+                </div>
+
+
+                <div>
+
+                    <label class="block font-semibold mb-2">
+                        Información adicional
+                    </label>
+
+                    <textarea
+                        name="adicional"
+                        rows="4"
+                        placeholder="Escribe cualquier información adicional..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 resize-none"></textarea>
+
+                </div>
+
+            </div>
+
+
+            <div class="border-t border-gray-300 mt-10 pt-8">
+
+                <div class="bg-gray-50 border border-gray-300 rounded-2xl p-5 mb-6">
+
+                    <p class="text-sm text-gray-600">
+                        <strong>Correo de contacto:</strong>
+                        penguindavid61@
+                    </p>
+
+                    <p class="text-sm text-gray-500 mt-2">
+                        Después de enviar el formulario, la empresa podrá utilizar
+                        este medio para establecer contacto.
+                    </p>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="w-full bg-gray-900 text-white py-4 rounded-xl font-semibold text-lg hover:bg-gray-700 transition">
+
+                    Enviar propuesta de trabajo
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </main>
+
+
+    <footer class="bg-white border-t border-gray-300">
+
+        <div class="max-w-4xl mx-auto px-6 py-8 text-center">
+
+            <h2 class="text-3xl font-display text-gray-900">
+                GEOTEX
+            </h2>
+
+            <p class="text-gray-500 text-sm mt-2">
+                Geología · Paleontología · Tecnología
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
